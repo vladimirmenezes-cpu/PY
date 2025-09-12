@@ -20,3 +20,4 @@ if st.button("Verificar"):
         st.error("REPROVADO BURRAO TU")
     st.success(f"Sua media é: {media}")
     
+    
