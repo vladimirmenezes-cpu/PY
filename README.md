@@ -29,6 +29,27 @@ cd nome-do-repositorio
 code .
 ```
 
+INSTRUÇÕES PARA USAR STREAMLIT
+1. Abra VSCode na pasta Downloads
+
+2. Digite no terminal do VSCode os comandos:
+python -m venv venv
+
+3. Ative o ambiente virtual:
+v TAB
+s TAB
+a TAB
+ENTER
+
+4. Instale o Streamlit:
+pip install streamlit
+
+5. Agora pode criar seus códigos, mas para executar com Streamlit execute o comando:
+streamlit run arquivo.py
+
+6. Para interromper a execução do Streamlit use as teclas:
+CTRL C
+
 ## Durante a aula:
 
 1) Adicionando arquivos para o commit.
