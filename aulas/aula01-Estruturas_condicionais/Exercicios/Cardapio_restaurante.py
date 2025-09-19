@@ -1,6 +1,15 @@
 import os
 os.system("cls")
 
+#Faça um algoritmo que mostre um menu com opções de uma cardapio de restaurante para uma pessoa.
+#A pessoa vai escolher o prato desejado digitando o codigo do prato.
+#Após escolher o prato, o algoritmo deve mostrar o nome e valor do prato escolhido.
+
+
+
+
+
+
 print("""
 Bem-vindo Ao Vitinho_Do_Grau, O melhor RESTAURANTE DE SALVAOR
       \t

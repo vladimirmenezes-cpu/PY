@@ -1,6 +1,13 @@
 import os
 os.system("cls")
 
+#Elabore um algoritmo para soliticar ao usuario o login e senha
+#considere que os dados do usuario ja estão cadastrados.
+#caso o login estejam corretos,mostre a mensagem:
+#BEM-VINDO!
+#Caso contrario, mostre a mensagem:
+#"Login ou senha invalidos."
+
 login_cadastrado = "usuario123"
 senha_cadastrada = "12345678"
 

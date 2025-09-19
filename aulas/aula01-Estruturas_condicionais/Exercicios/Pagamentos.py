@@ -1,6 +1,11 @@
 import os
 os.system("cls")
 
+#Solicite que o usuario informe o valor de um produto e a forma de pagamento.
+#Se o produto for pago a vista aplique um desconto de 10% antes de mostrar o valor final,senao informe o mesmo valor do produto
+#Se for escolhido a opção de pagamento a prazo, solicite que o usuario digite a quantidade de parcelas que ele deseja pagar
+
+
 valor_produto = float(input("Digite o valor do produto: R$ "))
 
 print("\nEscolha a forma de pagamento:")

@@ -1,6 +1,8 @@
 import os
 os.system("cls")
 
+
+
 numero1 = int(input("Informe a nota: "))
 numero2 = int(input("Informe a nota: " ))
 

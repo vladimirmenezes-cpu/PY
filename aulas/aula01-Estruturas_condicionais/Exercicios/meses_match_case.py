@@ -1,6 +1,9 @@
 import os
 os.system("cls")
 
+#Escreva um programa utilizando o comando match-case que mostre um
+# mês do ano de acordo com o numero digitado pelo usuario
+
 data = int(input("Digite um numero e descubra o mes:"))
 
 match data:

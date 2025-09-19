@@ -1,6 +1,8 @@
 import os
 os.system("cls")
 
+#Elabore um algoritmo usando operações logicas para informas se uma pessoa é obrigada a votar.
+
 numero1 = int(input("Informe sua idade: "))
 
 if numero1 < 16: 

@@ -1,6 +1,9 @@
 import os
 os.system("cls")
 
+#Faça um programa que calcule o "peso ideal" de um usuario de acordo com um
+#Caractere identificador de sexo(M,F) inserido pelo mesmo.
+
 
 altura = float(input("Digite sua altura em metros (ex: 1.75): "))
 sexo = input("Digite seu sexo (M para Masculino, F para Feminino): ")
