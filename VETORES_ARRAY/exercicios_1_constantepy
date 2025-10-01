@@ -1,0 +1,21 @@
+import os 
+os.system("cls")
+
+#crie um programa que leis 3 notas, armazenando em um vetor e calcule a media aritmetica
+#depois mostre as notas e a media aritmetica
+
+lista_nota = []
+
+# Constante 
+quantidade_notas = 3
+
+for i in range(quantidade_notas):
+    nota = int(input(f"Digite as suas {i + 1}ª notas: "))
+    lista_nota.append(nota)
+
+media = sum(lista_nota) / quantidade_notas
+
+for i in range(quantidade_notas):
+    print(f"\nNotas: {lista_nota[i]}")
+
+print(f"Media aritmetica {media}")
