@@ -17,17 +17,20 @@ class pessoa:
         print(f"Nome: {self.nome}")
 
 print("\n Pedindo dados do úsuario")
-pessoa1 = pessoa(nome= input("Digite seu nome: "),
+lista_pessoa = []
+
+for i in range(2):
+    pessoa = pessoa(nome= input("Digite seu nome: "),
                        email=input("Digite seu email: "),
                        endereco=input("Digite seu endereço:"))
+    lista_pessoa.append(pessoa)
 
-print("\n Pedindo dados do úsuario")
-pessoa2 = pessoa(nome= input("Digite seu nome: "),
-                       email=input("Digite seu email: "),
-                       endereco=input("Digite seu endereço:"))
 
-pessoa1.mostra_dados()
-pessoa1.mostrar_nome()
-pessoa2.mostra_dados()
-pessoa2.mostrar_nome()
- 
+
+print("\n= Exibindo dados = ")
+for pessoa in lista_pessoa:
+    pessoa.mostrar_dados()
+
+print("\n= Exibindo dados = ")
+for pessoa in lista_pessoa:
+    pessoa.mostrar_dados()
