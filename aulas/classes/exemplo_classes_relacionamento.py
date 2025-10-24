@@ -13,12 +13,14 @@ class Cliente:
     nome: str
     endereco: Endereco
 
+    def mostrar_dados(self):
+        print(f"Nome: {self.nome}")
+        print(f"Logradouro: {self.endereco.logradouro}")
+        print(f"Número: {self.endereco.numero}")
+
+
 cliente1 = Cliente(nome="Marta", 
                    endereco=Endereco(
                        logradouro="Rua A",
                    numero=23))
 
-print("Mostrar dados do cliente.")
-print(f"Nome: {cliente1.nome}")
-print(f"Endereço: {cliente1.endereco.logradouro}")
-print(f"Número: {cliente1.endereco.numero}")
