@@ -24,3 +24,4 @@ cliente1 = Cliente(nome="Marta",
                        logradouro="Rua A",
                    numero=23))
 
+cliente1.mostrar_dados()
