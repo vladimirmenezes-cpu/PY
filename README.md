@@ -67,6 +67,10 @@ git commit -m "feat: o que foi feito."
 git pull
 ```
 
+
+
+Ctrl + C + K = comentar varias linhas
+
 4) Enviar para GitHub.
 ```
 git push
